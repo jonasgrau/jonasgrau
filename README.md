@@ -1,42 +1,54 @@
 # Hi, I'm Jonas 👋
 
-I build software around **mobility, maps and public data**, and small native apps for the Mac.
-I like tools that take messy real-world data — departure feeds, tree registers, routing
-benchmarks — and turn it into something clear, tested and actually usable.
+I studied operations research at RWTH Aachen and build things around routing, transport
+and public data, plus small native apps for the Mac.
+If you're working on logistics or routing problems, I'd be happy to hear from you.
 
-📍 Hamburg · ✉️ [mail@jonasgrau.de](mailto:mail@jonasgrau.de)
+📍 Hamburg · ✉️ [mail@jonasgrau.de](mailto:mail@jonasgrau.de) · 💼 [LinkedIn](https://www.linkedin.com/in/jonas-grau/)
 
-## Projects
-
-### 🚌 [AVV Departures](https://github.com/jonasgrau/avv-departures) · [live](https://bushof-monitor.vercel.app)
-Real-time departure board for Aachen and the whole AVV area, styled like the amber LED
-displays at the stops. Disruption notices, line filters, a full-screen display mode for wall
-screens, and offline fallback. No dependencies, no build step; parser tests run against
-recorded API responses.
-`JavaScript` `Vercel serverless`
-
-### 🌳 [Pollenkarte Hamburg](https://github.com/jonasgrau/pollenradar) · [live](https://hamburg-pollenkarte.vercel.app)
-Today's pollen forecast for Hamburg on a map of the allergy-relevant street trees around you.
-Combines the Deutscher Wetterdienst forecast with Hamburg's street tree register. A monthly
-GitHub Action refreshes the tree data and refuses to publish if a dataset suddenly shrinks.
-`JavaScript` `Open data` `GitHub Actions`
-
-### ♞ [Knightbar](https://github.com/jonasgrau/knightbar)
-Chess in the macOS menu bar: play Stockfish at eight levels, solve the daily puzzle from
-Lichess or Chess.com, and play Lichess correspondence games right in the popover. Rules
-engine with perft tests, OAuth login, a dot in the menu bar when it's your move. Released
-through GitHub and Homebrew with a one-command release script.
-`Swift` `SwiftUI` `Swift Testing`
-
-### 🚚 [vrp-baselines](https://github.com/jonasgrau/vrp-baselines) + [routeviz](https://github.com/jonasgrau/routeviz)
-Tools for the vehicle routing problem (CVRP). **routeviz** plots, animates and *verifies*
-solutions: every customer visited once, capacities respected, cost recomputed.
-**vrp-baselines** benchmarks Clarke–Wright savings, Google OR-Tools and Hybrid Genetic Search
-on CVRPLIB instances, with every result checked by routeviz rather than trusted from the solver.
-`Python` `OR-Tools` `Optimization`
-
-## Tech I work with
-
-**Languages:** Swift · JavaScript / TypeScript · Python
-**Areas:** native macOS apps · web apps and serverless APIs · open & public transport data ·
-route optimization · automated testing and releases (GitHub Actions, Homebrew)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jonasgrau/routeviz"><img src="https://raw.githubusercontent.com/jonasgrau/routeviz/main/docs/A-n32-k5.gif" width="380" alt="routeviz animating an optimal CVRP solution"></a>
+      <h3><a href="https://github.com/jonasgrau/routeviz">routeviz</a> + <a href="https://github.com/jonasgrau/vrp-baselines">vrp-baselines</a></h3>
+      Plot, animate and check vehicle routing solutions, and benchmark savings, OR-Tools and HGS against the best known solutions on CVRPLIB.<br>
+      <sub><code>Python</code> <code>OR-Tools</code> <code>HGS</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jonasgrau/knightbar"><img src="https://raw.githubusercontent.com/jonasgrau/knightbar/main/docs/knightbar.gif" height="288" alt="Knightbar: chess in the macOS menu bar"></a>
+      <h3><a href="https://github.com/jonasgrau/knightbar">Knightbar</a></h3>
+      Chess in the macOS menu bar: Stockfish, the daily puzzle and your Lichess games, one click away.<br>
+      <sub><code>Swift</code> <code>SwiftUI</code> · <code>brew install</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://bushof-monitor.vercel.app"><img src="https://raw.githubusercontent.com/jonasgrau/avv-departures/main/docs/display-mode.jpg" width="380" alt="AVV departure board in amber LED style"></a>
+      <h3><a href="https://github.com/jonasgrau/avv-departures">AVV Departures</a> · <a href="https://bushof-monitor.vercel.app">live</a></h3>
+      Live departures for Aachen and the AVV area, styled like the LED boards at the stops.<br>
+      <sub><code>JavaScript</code> <code>Vercel</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://hamburg-pollenkarte.vercel.app"><img src="https://raw.githubusercontent.com/jonasgrau/pollenradar/main/public/og.jpg" width="380" alt="Pollenkarte Hamburg"></a>
+      <h3><a href="https://github.com/jonasgrau/pollenradar">Pollenkarte Hamburg</a> · <a href="https://hamburg-pollenkarte.vercel.app">live</a></h3>
+      Today's pollen forecast on a map of the street trees near you, built from DWD data and Hamburg's tree register.<br>
+      <sub><code>JavaScript</code> <code>Open data</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jonasgrau/paperless-drop"><img src="https://raw.githubusercontent.com/jonasgrau/paperless-drop/main/docs/demo.gif" width="380" alt="Dragging a PDF onto the Paperless Drop menu bar icon"></a>
+      <h3><a href="https://github.com/jonasgrau/paperless-drop">Paperless Drop</a></h3>
+      Drag PDFs onto the menu bar icon and they land in your paperless-ngx.<br>
+      <sub><code>Swift</code> <code>SwiftUI</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Tools I use</h3>
+      Python · Swift · JavaScript / TypeScript<br>
+      OR-Tools · SwiftUI · GitHub Actions · Docker
+      <br><br>
+      <h3>Elsewhere</h3>
+      🍺 <a href="https://github.com/jonasgrau/homebrew-tap">homebrew-tap</a> for my Mac apps
+    </td>
+  </tr>
+</table>
