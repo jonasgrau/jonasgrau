@@ -1,9 +1,5 @@
 # Hi, I'm Jonas 👋
 
-I studied operations research at RWTH Aachen and build things around routing, transport
-and public data, plus small native apps for the Mac.
-If you're working on logistics or routing problems, I'd be happy to hear from you.
-
 📍 Hamburg · ✉️ [mail@jonasgrau.de](mailto:mail@jonasgrau.de) · 💼 [LinkedIn](https://www.linkedin.com/in/jonas-grau/)
 
 <table>
